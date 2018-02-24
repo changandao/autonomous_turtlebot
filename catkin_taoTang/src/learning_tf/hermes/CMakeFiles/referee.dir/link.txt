@@ -1,0 +1,2 @@
+/usr/bin/ar qc libreferee.a  CMakeFiles/referee.dir/hermes.cpp.o CMakeFiles/referee.dir/referee.cpp.o CMakeFiles/referee.dir/moc_hermes.cxx.o CMakeFiles/referee.dir/moc_referee.cxx.o
+/usr/bin/ranlib libreferee.a

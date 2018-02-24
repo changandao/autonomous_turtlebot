@@ -1,0 +1,15 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtXml
+-I/usr/include/qt4/QtNetwork
+-I/usr/include/qt4/QtCore
+-I/usr/include/qt4
+-I/nas/ei/home/ga84zes/angelina/hermes
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_XML_LIB
+-DQT_NETWORK_LIB
+-DQT_CORE_LIB
+-o
+/nas/ei/home/ga84zes/angelina/hermes/moc_hermes.cxx
+/nas/ei/home/ga84zes/angelina/hermes/hermes.h

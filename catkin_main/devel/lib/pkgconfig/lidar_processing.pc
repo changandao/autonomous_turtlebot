@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_main/devel
+
+Name: lidar_processing
+Description: Description of lidar_processing
+Version: 0.0.0
+Cflags: -I/nas/ei/home/ga62reh/workspace/gruppe2/catkin_main/devel/include
+Libs: -L/nas/ei/home/ga62reh/workspace/gruppe2/catkin_main/devel/lib 
+Requires: 

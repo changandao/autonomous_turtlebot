@@ -1,0 +1,2 @@
+/usr/bin/ar qc /nas/ei/home/ga84zes/catkin_ws/devel/lib/libreferee.a  CMakeFiles/referee.dir/hermes.cpp.o CMakeFiles/referee.dir/referee.cpp.o CMakeFiles/referee.dir/moc_hermes.cxx.o CMakeFiles/referee.dir/moc_referee.cxx.o
+/usr/bin/ranlib /nas/ei/home/ga84zes/catkin_ws/devel/lib/libreferee.a

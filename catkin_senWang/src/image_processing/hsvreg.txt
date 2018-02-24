@@ -1,0 +1,43 @@
+void hsvreg()
+{
+    Mat img = imread("蓝色笔筒.jpg",1);
+
+    Mat imgHSV;  
+
+    //蓝色笔筒颜色的HSV范围
+    int iLowH = 100 /2;  
+    int iHighH = 120 /2;  
+
+    int iLowS = 50 *255/100;   
+    int iHighS = 70 *255/100;  
+
+    int iLowV = 40 *255/100;  
+    int iHighV = 50 *255/100;  
+
+    cvtColor(img, imgHSV, COLOR_BGR2HSV);//转为HSV
+
+    imwrite("hsv.jpg",imgHSV);
+
+    Mat imgThresholded;
+
+    inRange(imgHSV, Scalar(iLowH, iLowS, iLowV), Scalar(iHighH, iHighS, iHighV), imgThresholded); //Threshold the image  
+
+    //开操作 (去除一些噪点)  如果二值化后图片干扰部分依然很多，增大下面的size
+    Mat element = getStructuringElement(MORPH_RECT, Size(5, 5));  
+    morphologyEx(imgThresholded, imgThresholded, MORPH_OPEN, element);  
+  
+    //闭操作 (连接一些连通域)  
+    morphologyEx(imgThresholded, imgThresholded, MORPH_CLOSE, element);  
+  
+    namedWindow("Thresholded Image",CV_WINDOW_NORMAL);
+    imshow("Thresholded Image", imgThresholded); 
+    
+    //这里是自定义的求取形心函数，当然用连通域计算更好
+    //Point center;
+    //center = GetCenterPoint(imgThresholded);//获取二值化白色区域的形心
+
+    //circle(img, center, 100, Scalar(0,0,255), 5, 8, 0);//绘制目标位置
+    imwrite("end.jpg", img);
+
+    waitKey(0);
+}

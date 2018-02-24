@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62saf/gruppe2/catkin_shangyin/devel
+
+Name: laser_line_extraction
+Description: Description of laser_line_extraction
+Version: 0.1.0
+Cflags: -I/nas/ei/home/ga62saf/gruppe2/catkin_shangyin/devel/include -I/nas/ei/home/ga62saf/gruppe2/catkin_shangyin/src/laser_line_extraction/include
+Libs: -L/nas/ei/home/ga62saf/gruppe2/catkin_shangyin/devel/lib -llaser_line_extraction
+Requires: message_runtime roscpp

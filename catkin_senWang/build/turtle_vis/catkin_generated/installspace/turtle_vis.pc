@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install
+
+Name: turtle_vis
+Description: Description of turtle_vis
+Version: 0.0.0
+Cflags: -I/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install/include
+Libs: -L/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install/lib -lturtle_ros_tutorial
+Requires: roscpp rospy std_msgs tf visualization_msgs message_runtime

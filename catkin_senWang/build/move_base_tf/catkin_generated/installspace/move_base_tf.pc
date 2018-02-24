@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install
+
+Name: move_base_tf
+Description: Description of move_base_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install/lib 
+Requires: 

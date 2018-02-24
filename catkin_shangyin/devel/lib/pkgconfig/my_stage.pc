@@ -1,0 +1,8 @@
+prefix=/home/ga62saf/gruppe2/catkin_shangyin/devel
+
+Name: my_stage
+Description: Description of my_stage
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ga62saf/gruppe2/catkin_shangyin/devel/lib 
+Requires: 

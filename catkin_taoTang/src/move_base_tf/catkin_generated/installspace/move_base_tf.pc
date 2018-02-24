@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga84zes/catkin_ws/install
+
+Name: move_base_tf
+Description: Description of move_base_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/nas/ei/home/ga84zes/catkin_ws/install/lib -limage_processing
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs

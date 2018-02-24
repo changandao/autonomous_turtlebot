@@ -1,0 +1,2 @@
+learning_tf:move_base_tf:my_stage
+-DCATKIN_DEVEL_PREFIX=/home/ga62saf/gruppe2/catkin_taoTang/devel -DCMAKE_INSTALL_PREFIX=/home/ga62saf/gruppe2/catkin_taoTang/install -G Unix Makefiles

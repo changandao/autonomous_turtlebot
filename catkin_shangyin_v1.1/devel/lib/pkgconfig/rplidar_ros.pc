@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62saf/gruppe2/catkin_shangyin/devel
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.5.7
+Cflags: 
+Libs: -L/nas/ei/home/ga62saf/gruppe2/catkin_shangyin/devel/lib 
+Requires: 

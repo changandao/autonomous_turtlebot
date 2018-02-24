@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_shangyin_v1.1/install
+
+Name: my_stage
+Description: Description of my_stage
+Version: 0.0.0
+Cflags: 
+Libs: -L/nas/ei/home/ga62reh/workspace/gruppe2/catkin_shangyin_v1.1/install/lib 
+Requires: 

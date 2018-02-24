@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/devel
+
+Name: tf_transform
+Description: Description of tf_transform
+Version: 0.0.0
+Cflags: 
+Libs: -L/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/devel/lib 
+Requires: 

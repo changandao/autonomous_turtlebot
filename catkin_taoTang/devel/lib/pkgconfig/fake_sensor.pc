@@ -1,0 +1,8 @@
+prefix=/home/ga84zes/catkin_ws/devel
+
+Name: fake_sensor
+Description: Description of fake_sensor
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ga84zes/catkin_ws/devel/lib 
+Requires: 

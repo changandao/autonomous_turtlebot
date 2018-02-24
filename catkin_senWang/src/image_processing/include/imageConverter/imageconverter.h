@@ -1,0 +1,5 @@
+#ifndef IMAGECONVERTER
+#define IMAGECONVERTER
+
+
+

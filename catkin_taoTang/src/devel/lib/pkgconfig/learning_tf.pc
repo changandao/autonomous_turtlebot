@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga84zes/catkin_ws/src/devel
+
+Name: learning_tf
+Description: Description of learning_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/nas/ei/home/ga84zes/catkin_ws/src/devel/lib 
+Requires: 

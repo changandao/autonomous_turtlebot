@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install
+
+Name: from2dto3d
+Description: Description of from2dto3d
+Version: 0.0.1
+Cflags: 
+Libs: -L/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install/lib 
+Requires: message_runtime

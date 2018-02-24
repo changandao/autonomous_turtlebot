@@ -1,0 +1,2 @@
+lidar_processing:move_base_tf:my_stage
+-DCATKIN_DEVEL_PREFIX=/home/ga62saf/gruppe2/catkin_shangyin/devel -DCMAKE_INSTALL_PREFIX=/home/ga62saf/gruppe2/catkin_shangyin/install -G Unix Makefiles

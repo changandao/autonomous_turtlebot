@@ -1,0 +1,2 @@
+lidar_processing:move_base_tf:my_stage:perception_msgs
+-DCATKIN_DEVEL_PREFIX=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_main/devel -DCMAKE_INSTALL_PREFIX=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_main/install -G Unix Makefiles

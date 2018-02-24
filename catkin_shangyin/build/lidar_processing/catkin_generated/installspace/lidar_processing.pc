@@ -1,0 +1,8 @@
+prefix=/home/ga62saf/gruppe2/catkin_shangyin/install
+
+Name: lidar_processing
+Description: Description of lidar_processing
+Version: 0.0.0
+Cflags: -I/home/ga62saf/gruppe2/catkin_shangyin/install/include
+Libs: -L/home/ga62saf/gruppe2/catkin_shangyin/install/lib 
+Requires: 

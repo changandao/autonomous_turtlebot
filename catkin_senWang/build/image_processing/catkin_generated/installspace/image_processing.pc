@@ -1,0 +1,8 @@
+prefix=/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install
+
+Name: image_processing
+Description: Description of image_processing
+Version: 0.0.0
+Cflags: -I/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install/include
+Libs: -L/nas/ei/home/ga62reh/workspace/gruppe2/catkin_senWang/install/lib -limage_processing
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs

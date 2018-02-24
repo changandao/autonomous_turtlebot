@@ -1,0 +1,8 @@
+prefix=/home/ga62saf/gruppe2/catkin_shangyin/install
+
+Name: move_base_tf
+Description: Description of move_base_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ga62saf/gruppe2/catkin_shangyin/install/lib 
+Requires: 
